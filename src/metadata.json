@@ -1,0 +1,5 @@
+{
+  "name": "PendragonOS - TuckerV3 Interface",
+  "description": "A futuristic web interface for the TuckerV3 Reversible GPT architecture, featuring a terminal-based playground, architecture visualization, and system monitoring.",
+  "requestFramePermissions": []
+}
