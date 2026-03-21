@@ -1,0 +1,10 @@
+{
+  "name": "Tucker_Pendragon_Claude_Native",
+  "description": "Claude-native constitutional governance interface — 51% Claude Synthesis Chair with full 5-model Pantheon Council. Forked from Tucker Pendragon (Gemini) with council-first architecture, shared types with Rust CLI, and real governance verdict tracking.",
+  "version": "2.0.0-alpha",
+  "engine": "anthropic/claude-sonnet-4-6",
+  "council": ["anthropic/claude", "openai/gpt-4o", "google/gemini-2.5-flash", "deepseek/deepseek-chat", "xai/grok-3"],
+  "protocols": ["CAAL", "MissionAllocation", "DigitalHabeasCorpus", "LocalFirst", "FractalGovernance", "Clause81"],
+  "aluminum_os": { "ring": 2, "component": "agent-runtime" },
+  "forked_from": "interfaces/pendragon (Gemini-only)"
+}
