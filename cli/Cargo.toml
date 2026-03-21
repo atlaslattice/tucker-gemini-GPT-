@@ -1,0 +1,59 @@
+[package]
+name = "tucker"
+version = "4.0.0-alpha"
+edition = "2021"
+description = "Tucker — Constitutional AI Governance CLI. Standalone binary + UWS plugin. Council mode with GPT-4o, Gemini, Claude, DeepSeek, Grok."
+authors = ["Dave Sheldon <therealdavesheldon@gmail.com>", "Pantheon Council (GPT + Gemini + Claude)"]
+license = "MIT"
+repository = "https://github.com/splitmerge420/tucker-gemini-GPT-"
+keywords = ["ai", "governance", "constitutional", "cli", "council"]
+
+[[bin]]
+name = "tucker"
+path = "src/main.rs"
+
+[lib]
+name = "tucker_lib"
+path = "src/lib.rs"
+
+[dependencies]
+# CLI framework
+clap = { version = "4.5", features = ["derive", "env"] }
+
+# Async runtime
+tokio = { version = "1.36", features = ["full"] }
+
+# HTTP client for model APIs
+reqwest = { version = "0.12", features = ["json", "stream"] }
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Error handling
+thiserror = "1.0"
+anyhow = "1.0"
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+
+# Time
+chrono = { version = "0.4", features = ["serde"] }
+
+# UUID for audit trails
+uuid = { version = "1.7", features = ["v4", "serde"] }
+
+# Terminal UI
+crossterm = "0.28"
+ratatui = "0.29"
+
+# Config management
+toml = "0.8"
+dirs = "5.0"
+
+# Async channels for council streaming
+futures = "0.3"
+
+[dev-dependencies]
+tokio-test = "0.4"
