@@ -5,7 +5,7 @@ edition = "2021"
 description = "Tucker — Constitutional AI Governance CLI. Standalone binary + UWS plugin. Council mode with GPT-4o, Gemini, Claude, DeepSeek, Grok."
 authors = ["Dave Sheldon <therealdavesheldon@gmail.com>", "Pantheon Council (GPT + Gemini + Claude)"]
 license = "MIT"
-repository = "https://github.com/splitmerge420/tucker-gemini-GPT-"
+repository = "https://github.com/atlaslattice/tucker-gemini-GPT-"
 keywords = ["ai", "governance", "constitutional", "cli", "council"]
 
 [[bin]]

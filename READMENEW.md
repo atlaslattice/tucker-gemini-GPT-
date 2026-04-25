@@ -54,11 +54,11 @@ Full spec: [docs/tucker-pendragon-protocols-newdeal2.md](docs/tucker-pendragon-p
 
 ## Related Repos
 
-- [manus-artifacts](https://github.com/splitmerge420/manus-artifacts) — Core artifacts, anti-busywork engine
-- [aluminum-os](https://github.com/splitmerge420/aluminum-os) — AI-Native OS
-- [constitutional-os](https://github.com/splitmerge420/constitutional-os) — Constitutional kernel
-- [uws](https://github.com/splitmerge420/uws) — Universal Workspace CLI
-- [bazinga](https://github.com/splitmerge420/bazinga) — BAZINGA compute layer
+- [manus-artifacts](https://github.com/atlaslattice/manus-artifacts) — Core artifacts, anti-busywork engine
+- [aluminum-os](https://github.com/atlaslattice/aluminum-os) — AI-Native OS
+- [constitutional-os](https://github.com/atlaslattice/constitutional-os) — Constitutional kernel
+- [uws](https://github.com/atlaslattice/uws) — Universal Workspace CLI
+- [bazinga](https://github.com/atlaslattice/bazinga) — BAZINGA compute layer
 
 ## Setup
 
