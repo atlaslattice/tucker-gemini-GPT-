@@ -25,6 +25,36 @@ https://github.com/atlaslattice/manus-artifacts/blob/master/archive/provenance/T
 https://github.com/atlaslattice/manus-artifacts/blob/master/archive/boot/gptbrain/TUCKER_BOOT_INTEGRATION_NOTE_2026-05-09.md
 ```
 
+## GPTBrain / Council Brain adapter lane
+
+Tucker now has a safe adapter-design lane in `atlaslattice/manus-artifacts`:
+
+```text
+Issue #22 — Design Tucker/Gemini runtime adapter path without conflating provenance and execution
+https://github.com/atlaslattice/manus-artifacts/issues/22
+
+Adapter spec:
+https://github.com/atlaslattice/manus-artifacts/blob/master/archive/boot/gptbrain/adapters/tucker_gemini/TUCKER_GEMINI_RUNTIME_ADAPTER_SPEC_2026-05-09.md
+
+Adapter source manifest:
+https://github.com/atlaslattice/manus-artifacts/blob/master/archive/boot/gptbrain/adapters/tucker_gemini/source_manifest.yaml
+
+Adapter scaffold:
+https://github.com/atlaslattice/manus-artifacts/blob/master/archive/boot/gptbrain/adapters/tucker_gemini/tucker_gemini_adapter.py
+
+Adapter tests:
+https://github.com/atlaslattice/manus-artifacts/blob/master/archive/boot/gptbrain/adapters/tucker_gemini/test_tucker_gemini_adapter.py
+```
+
+Current safe adapter status:
+
+```text
+Tucker is provenance-wired.
+Tucker is boot-visible to GPTBrain.
+Tucker is route-visible through Issue #22.
+Tucker/Gemini are not live-runtime wired.
+```
+
 ## Build-assistance context
 
 The recorded build history includes user-reported GPT assistance across:
@@ -56,6 +86,9 @@ This note does not claim:
 - Tucker is production-authorized by GPTBrain
 - Tucker proves autonomous model agency
 - AI assistance replaces human authorship, review, or responsibility
+- Tucker is currently invoked by GPTBrain
+- Gemini live API calls are enabled by default
+- Provenance visibility is execution permission
 ```
 
 ## Current integration status
@@ -77,6 +110,9 @@ S1-ART-2026-0509-0005 — Tucker Build Culture and GPT Assistance Note
 Provenance visibility is not canon ratification.
 Build assistance is not ownership.
 Cultural memory is not governance authority.
+Tucker referenced is not Tucker invoked.
+Gemini configured is not Gemini authorized.
+Readable provenance is not executable permission.
 ```
 
 ## Recommended next steps
@@ -86,4 +122,6 @@ Cultural memory is not governance authority.
 2. Map major files to likely human-authored, AI-assisted, or generated provenance where possible.
 3. Add security/compliance notes if Tucker is used beyond demo or prototype contexts.
 4. Keep governance claims source-linked and confidence-labeled.
+5. Keep live Gemini disabled until human-root approval and secrets policy exist.
+6. Route adapter hardening through manus-artifacts#22.
 ```
