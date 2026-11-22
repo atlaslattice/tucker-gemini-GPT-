@@ -144,12 +144,12 @@ impl Default for TuckerConfig {
                 enabled: true,
                 interval: "daily".to_string(),
                 github_repos: vec![
-                    "splitmerge420/tucker-gemini-GPT-".to_string(),
-                    "splitmerge420/aluminum-os".to_string(),
-                    "splitmerge420/manus-artifacts".to_string(),
-                    "splitmerge420/constitutional-os".to_string(),
-                    "splitmerge420/uws".to_string(),
-                    "splitmerge420/bazinga".to_string(),
+                    "atlaslattice/tucker-gemini-GPT-".to_string(),
+                    "atlaslattice/aluminum-os".to_string(),
+                    "atlaslattice/manus-artifacts".to_string(),
+                    "atlaslattice/constitutional-os".to_string(),
+                    "atlaslattice/uws".to_string(),
+                    "atlaslattice/bazinga".to_string(),
                 ],
                 notion_pages: vec![
                     "3220c1de73d98157a61fe34a0d313d66".to_string(), // Unified Field v4.0
